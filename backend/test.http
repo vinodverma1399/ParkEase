@@ -1,0 +1,29 @@
+### 🧪 Test Signup API
+
+POST http://localhost:3000/api/user/test
+Content-Type: application/json
+
+
+
+POST http://localhost:3000/api/user/test
+Content-Type: application/json
+
+{
+  "name": "vinod",
+  "email": "vkverma1234@gmail.com",
+  "mobile": "7068047417",
+  "gender": "male",
+  "password": "Vinod@992",
+  "role": "admin"
+}
+
+
+### 🧪 Test Login
+
+POST http://localhost:3000/api/user/login
+Content-Type: application/json
+
+{
+  "username": "vkverma1234@gmail.com",
+  "password": "Vinod@992"
+}
